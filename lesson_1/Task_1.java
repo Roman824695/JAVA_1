@@ -1,6 +1,7 @@
+//1. Задать одномерный массив и найти в нем минимальный и максимальный элементы
 package lesson_1;
 
-import java.util.Random;
+
 
 public class Task_1 {
      public static void main(String[] arge) {
