@@ -67,7 +67,6 @@ public class Task_2 {
         }
 
 
-
         for (int i = max; i > 0; i--) {
             for (Map.Entry<String, Integer> entry : name.entrySet()) {
                 String key = entry.getKey();
