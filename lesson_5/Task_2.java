@@ -27,7 +27,7 @@ import java.util.*;
 public class Task_2 {
     public static void main(String[] args) {
         Map<String, Integer> name = new HashMap<>();
-        String employees = "Иван Иванов " +
+        String staffname = "Иван Иванов " +
                 "Светлана Петрова " +
                 "Кристина Белова " +
                 "Анна Мусина " +
@@ -45,7 +45,7 @@ public class Task_2 {
                 "Иван Мечников " +
                 "Петр Петин " +
                 "Иван Ежов ";
-        String[] listName = employees.split(" ");
+        String[] listName = staffname.split(" ");
         for (int i = 0; i < listName.length; i += 2) {
             if (name.containsKey(listName[i])) {
                 name.replace(listName[i], name.get(listName[i]) + 1);
@@ -76,7 +76,7 @@ public class Task_2 {
                 }
             }
         }
-        System.out.println("\n" + sortedName + "\n");
+        System.out.println("\n" + sortedName+ "\n");
     }
 }
 
